@@ -1,0 +1,27 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "Directory Structure\r -------------------\r css\\              - Stylesheets CSS files for the template.\r images\\           - Images used in template.\r scripts\\          - JavaScript used in the template.\r styles\\           - SCSS source files for stylesheets CSS. Available in Purchased versions only.\r favicon.ico       - Favicon placeholder provided for the template.\r index.html        - Main HTML page to open the template in browser.\r *.html            - Additional HTML pages (if any).\r LICENSE-*.txt     - License file as per your downloaded variant.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js" , 
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solomon-prosperity/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solomon-prosperity/portfolio/issues"
+  },
+  "homepage": "https://github.com/solomon-prosperity/portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
